@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="innercirclediameter" format="dimension"></attr><!-- 内圆直径 -->
+    <attr name="outercirclediameter" format="dimension"></attr><!-- 外圆直径 -->
+    <attr name="innercolor" format="color"></attr><!-- 内圆颜色 -->
+    <attr name="outercolor" format="color"></attr><!-- 外圆进度颜色 -->
+    <attr name="divlength" format="dimension"></attr><!-- 内外间隔距离 -->
+    <attr name="divcolor" format="color"></attr><!-- 内外间隔颜色 -->
+    <attr name="noselectedoutcolor" format="color"></attr><!-- 外圆无进度处颜色 -->
+    <attr name="toptextsize" format="dimension"></attr><!-- 上文字大小 -->
+    <attr name="buttomtextsize" format="dimension"></attr><!-- 下文字大小 -->
+    <attr name="textcolor" format="color"></attr><!-- 文字颜色 -->
+    <attr name="toptext" format="string"></attr><!-- 上文本 -->
+    <attr name="buttomtext" format="string"></attr><!-- 下文本 -->
+    <attr name="progress" format="float"></attr><!-- 进度 -->
+
+    <declare-styleable name="MyCircleProgress">
+        <attr name="innercirclediameter"></attr>
+        <attr name="outercirclediameter"></attr>
+        <attr name="innercolor"></attr>
+        <attr name="outercolor"></attr>
+        <attr name="divlength"></attr>
+        <attr name="divcolor"></attr>
+        <attr name="noselectedoutcolor"></attr>
+        <attr name="toptextsize"></attr>
+        <attr name="buttomtextsize"></attr>
+        <attr name="textcolor"></attr>
+        <attr name="toptext"></attr>
+        <attr name="buttomtext"></attr>
+        <attr name="progress"></attr>
+    </declare-styleable>
+
+</resources>
